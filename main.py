@@ -91,7 +91,7 @@ def play_game():
     game = True
     players = ["X", "O"]
 
-    value = [" " for i in range(9)]
+    value = [" " for empty in range(9)]
 
 
     welcome_phrase()
